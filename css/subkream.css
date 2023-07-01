@@ -1,0 +1,442 @@
+@charset "utp-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Noto+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    font-family: 'Noto Sans', sans-serif;
+    transition: all 0.2s linear;
+    
+  }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul li {
+    list-style: none;
+}
+
+header {
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 2rem 1%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    z-index: 1000; */
+    display: grid;
+}
+
+.hd-t {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 21%;
+}
+
+
+
+.navbar {
+    margin-left: 10px;
+}
+
+.navbar2 {
+    padding-left: 113px;
+}
+
+.navbar2 a {
+    margin-right: 15px;
+}
+
+
+
+header .logo {
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+header .navbar .active {
+    font-weight: bold;
+}
+
+header .navbar a {
+    font-size: 0.9rem;
+    padding: 0.5rem 0.8rem;
+}
+
+header .navbar i {
+    font-size: 0.9rem;
+    padding: 0.5rem 0.8rem;
+}
+
+
+
+
+
+/* 푸터 */
+.foot {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+    padding: 0px 43px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    }
+    
+    .titlebox {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .footmenu {
+        display: flex;
+    }
+    
+    .menubox {
+        width: 200px;
+    }
+    
+    .menu_title {
+        font-size: 16px;
+    }
+    
+    .menu_list {
+        padding-top: 16px;
+        line-height: 30px;
+        font-size: 0.8rem;
+    }
+    
+    .menu_list a {
+        color: #8d8c8c;
+    }
+    
+    .service {
+        max-width: 270px;
+        padding-top: 16px;
+        line-height: 30px;
+        font-size: 0.8rem;
+        color: #8d8c8c;
+    }
+    
+    .customer_service p {
+        font-size: 0.8rem;
+        color: #8d8c8c;
+    }
+    
+    
+    .box2_list {
+        display: inline-flex;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    
+    .box2_list li {
+        margin-right: 20px;
+        cursor: pointer;
+    }
+    
+    .company p{
+        max-width: 650px;
+        line-height: 20px;
+        font-size: 13px;
+        color: #8d8c8c;
+    }
+    
+    .box-container .box{
+        position: relative;
+    }
+
+
+
+
+    .content {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1280px;
+        overflow: hidden;
+        padding: 0 90px;
+    }
+    
+    .product_img {
+        width: 100%;
+    }
+    
+    .product_img img {
+        width: 550px;
+        height: 550px;
+    }
+    
+    .product_title {
+        width: 50%;
+        float: left;
+    }
+    
+    .column {
+        width: 50%;
+        float: right;
+        padding-left: 100px;
+    }
+
+.title_name {
+    padding-bottom: 10px;
+}
+
+.title_name a {
+    font-weight: bold;
+    border-bottom: 2px solid #222;
+}
+
+.top_box .explain {
+    font-size: 0.9rem;
+    color: #8d8c8c;
+}
+
+hr {
+    border-bottom: 1px solid #b8b7b7;
+    width: 92%;
+}
+
+.size {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.size .size_n {
+    padding-right: 285px;
+    font-size: 0.8rem;
+    color: #8d8c8c;
+}
+
+.size .size_free {
+    font-weight: bold;
+}
+
+.deal {
+    padding-top: 10px;
+}
+
+.deal .deal_n {
+    padding-right: 263px;
+    font-size: 0.8rem;
+    color: #8d8c8c;
+}
+
+.deal .deal_b {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.button{
+    display: flex;
+    height: 60px;
+    margin-top: 30px;
+    
+}
+
+.buy {
+    background-color: #ef6253;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 10px;
+    color: #fff;
+    margin-right: 55px;
+}
+
+.buy_b {
+    width: 55px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: -.27px;
+    
+}
+
+.buy .buy_a {
+    margin-left: 10px;
+    line-height: 15px;
+    display: block;
+}
+
+.buy_a {
+    padding-right: 40px;
+}
+
+.buy_deal {
+    display: inline-block;
+    /* padding-bottom: 2px; */
+    font-weight: bold;
+}
+
+.da {
+    display: block;
+    font-size: 0.7rem;
+}
+
+.sale {
+    background-color: #41b979;;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 10px;
+    color: #fff;
+    
+}
+
+.sale_b {
+    width: 55px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: -.27px;
+    
+}
+
+.sale .sale_a {
+    margin-left: 10px;
+    line-height: 15px;
+    display: block;
+}
+
+.sale_a {
+    padding-right: 40px;
+}
+
+.sale_deal {
+    display: inline-block;
+    /* padding-bottom: 2px; */
+    font-weight: bold;
+}
+
+.ba {
+    display: block;
+    font-size: 0.7rem;
+}
+
+.interest {
+    border: 1px solid #b8b7b7;
+    width: 92%;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.interest {
+    margin-top: 15px;
+}
+
+.interest p {
+    text-align: center;
+    line-height: 45px;
+}
+
+.interest span {
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.product_info {
+    margin-top: 30px;
+}
+
+.information {
+    display: block;
+}
+
+.information_dl {
+    display: flex;
+    height: 20px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+#product_wrap {
+    padding-right: 30px;
+}
+
+.information_wrap dt {
+    font-size: 0.8rem;
+}
+
+.information_wrap dd {
+    font-size: 0.9rem;
+}
+
+
+.delivery_info {
+    display:  flex;
+}
+
+.delivery {
+    width: 60px;
+    height: 60px;
+    padding-right: 20px;
+}
+
+.delivery img{
+    width: 100%;
+}
+
+.delivery_wrap h3{
+    font-size: 0.8rem;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+
+.deliver {
+    font-weight: bold;
+}
+
+.fast_two span {
+    color: rgb(128, 128, 231);
+}
+
+.notice h3{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.notice ul li {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.deg {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.mag {
+    display: flex;
+}
+
+.glasses {
+    width: 60px;
+    height: 60px;
+    padding-right: 10px;
+}
+
+.glasses img{
+    width: 100%;
+}
+
+.glasses_font {
+    font-size: 0.75rem;
+}
+.glasses_fonts {
+    font-size: 0.75rem;
+    padding-left: 10px;
+}
+
+.deg_first {
+    padding-bottom: 10px;
+}
+
+.deg_two {
+    padding-bottom: 10px;
+}
